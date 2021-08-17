@@ -20,13 +20,6 @@ import com.ngengeapps.enom.ui.theme.EnomTheme
 
 @Composable
 fun CartList(items:List<Item>){
-   /* Column(modifier = Modifier.padding(horizontal = 8.dp)) {
-        Text(text = "My Shopping \nCart",style = MaterialTheme.typography.h4)
-        items.forEach{
-            CartItem(item = it)
-            Spacer(modifier = Modifier.height(8.dp))
-        }
-    }*/
 
     Box(modifier = Modifier.fillMaxSize()) {
 
